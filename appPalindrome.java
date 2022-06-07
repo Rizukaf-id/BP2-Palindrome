@@ -14,7 +14,7 @@ public class appPalindrome {
                 case 1:
                     System.out.print("Masukkan Kata > ");
                     String input = scan.next();
-                    //char kar[] = new char[input.length()];
+
                     for (int i = 0; i < input.length(); i++) {
                         char cr = input.charAt(i);
                         cItem temp = new cItem(cr);
@@ -33,7 +33,7 @@ public class appPalindrome {
                         tumpuk.print();
                         System.out.println("-> Bukan PALINDROME");
                     }
-                    //tumpuk.reset();
+                    
                     for (int i = 0; i < atas.length(); i++) {
                         tumpuk.pop();
                     }
