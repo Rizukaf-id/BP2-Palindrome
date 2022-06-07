@@ -36,15 +36,6 @@ public class cStack {
         }
     }
     
-    public void reset(){
-        for (cItem temp = top; temp != null; temp = temp.next) {
-            if(temp==null){
-                System.out.println("EMPTY");
-            }
-            pop();
-        }
-    }
-    
     public void print(){
         for (cItem temp = top; temp != null; temp = temp.next) {
             System.out.print(temp.getHuruf());
